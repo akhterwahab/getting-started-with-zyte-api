@@ -37,7 +37,7 @@ To be able to use this project, you must first:
 
         .. code-block:: shell
 
-            python3 -m venv tutorial-env
+            python3 -m venv .venv
             . .venv/bin/activate
 
 #.  Install the project requirements:
@@ -53,7 +53,7 @@ To be able to use this project, you must first:
     .. _Scrapy Cloud API key: https://app.zyte.com/o/settings/apikey
 
 #.  To be able to use `Zyte API`_, append the following line to
-    ``tutorial/settings.py``, replacing ``YOUR_API_KEY`` with your `Zyte API
+    ``workshop/settings.py``, replacing ``YOUR_API_KEY`` with your `Zyte API
     key`_:
 
     .. code-block:: python
