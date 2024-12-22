@@ -31,14 +31,14 @@ To be able to use this project, you must first:
         .. code-block:: shell
 
             python3 -m venv .venv
-            tutorial-env\Scripts\activate.bat
+            .venv\Scripts\activate.bat
 
     -   On **macOS** and **Linux**:
 
         .. code-block:: shell
 
-            python3 -m venv .venv
-            . tutorial-env/bin/activate
+            python3 -m venv tutorial-env
+            . .venv/bin/activate
 
 #.  Install the project requirements:
 
